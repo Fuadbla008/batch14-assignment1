@@ -8,6 +8,7 @@ body {
     align-items: center;
 }
 
+/* nav sectin css file */
 .button {
     width: 192px;
     height: 56px;
@@ -55,6 +56,7 @@ nav {
     }
 }
 
+/* hero section css  */
 
 .hero-section {
     display: flex;
@@ -143,10 +145,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 
 }
 
-.pcheading{
+.pcheading {
     margin-bottom: 30px;
 }
 
@@ -180,10 +183,12 @@ nav {
 }
 
 .pcstandard {
-    h1{
+    h1 {
         color: black;
     }
+
     color: rgb(105, 105, 105);
+
     .pcbutton {
         margin-top: 30px;
         text-align: center;
@@ -231,9 +236,10 @@ nav {
 }
 
 .pcteam {
-    h1{
+    h1 {
         color: black;
     }
+
     color: rgb(105, 105, 105);
     background-color: rgb(243, 243, 243);
 
@@ -248,4 +254,227 @@ nav {
             padding: 11px;
         }
     }
+}
+
+/* this is ai generated css section */
+/* ========== AI Generated Section ========== */
+.aigen {
+    width: 1320px;
+    /* nav-child-এর width-এর সাথে মিল রেখে */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 0;
+}
+
+/* Why Attend */
+.why-attend {
+    text-align: center;
+}
+
+.why-attend h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0D1B2A;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.why-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 32px 24px;
+    transition: box-shadow 0.2s;
+}
+
+.why-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.why-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.why-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #1D4ED8;
+    /* primary blue */
+}
+
+.why-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Event Schedule */
+.event-schedule h2 {
+    font-size: 2rem;
+    margin-bottom: 32px;
+    color: #0D1B2A;
+}
+
+.schedule-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: flex-start;
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 20px 24px;
+    border: 1px solid #e5e7eb;
+}
+
+.time {
+    min-width: 140px;
+    font-weight: 600;
+    color: #1D4ED8;
+    font-size: 0.95rem;
+    padding-top: 4px;
+}
+
+.details {
+    flex: 1;
+}
+
+.track {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.track-ai {
+    background: #3B82F6;
+}
+
+.track-cloud {
+    background: #8b5cf6;
+}
+
+.track-frontend {
+    background: #06b6d4;
+}
+
+.track-security {
+    background: #ef4444;
+}
+
+.track-break {
+    background: #6b7280;
+}
+
+.details h4 {
+    font-size: 1.1rem;
+    margin: 4px 0 2px;
+    color: #111827;
+}
+
+.details p {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+/* Get Direction */
+.get-direction {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 600px;
+}
+
+.direction-left {
+    flex: 1;
+    height: 100%;
+}
+
+.direction-left h2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    color: #0D1B2A;
+}
+
+.address-box {
+    background: #f0f4ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    border-left: 4px solid #3B82F6;
+}
+
+.address-box strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #1D4ED8;
+}
+
+.address-box p {
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.contact-form {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.contact-form h3 {
+    margin-bottom: 16px;
+    color: #1D4ED8;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 95%;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border 0.15s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #3B82F6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.contact-form .button {
+    width: 100%;
+    margin-top: 8px;
+    background-color: #1D4ED8;
+    border: none;
+    cursor: pointer;
+}
+
+.direction-right {
+    flex: 1;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.top-direction{
+    text-align: center;
+    padding: 40px;
 }
