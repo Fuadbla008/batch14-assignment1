@@ -7,6 +7,11 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.flexitem{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
 
 /* nav sectin css file */
 .button {
@@ -474,7 +479,36 @@ nav {
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-.top-direction{
+
+.top-direction {
     text-align: center;
     padding: 40px;
+}
+
+/* this is footer section css */
+
+.bottomFooter {
+    background: #0f1b29;
+    color: #d1d5db;
+    width: 1551px;
+    height: 120px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .footerDiv {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        width: 1431px;
+        height: 20px;
+        div a{
+            text-decoration: none;
+            color: #d1d5db;
+            padding: 10px;
+        }
+    }
 }
