@@ -87,3 +87,25 @@ nav {
         }
     }
 }
+
+/* this is job card section  css sheet */
+
+.job-card-section {
+    width: 1551px;
+    height: 1322px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: 5px solid rgb(30, 0, 228);
+}
+
+.job-card-section-float {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 1279px;
+    border: 1px solid salmon;
+    padding: 80px 60px;
+}
