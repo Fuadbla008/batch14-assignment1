@@ -131,3 +131,51 @@ nav {
         color: rgb(131, 131, 131);
     }
 }
+
+/* this is pricing card section css */
+
+.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-area{
+    width: 1160px;
+    height: 444px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+}
+.pricing-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card{
+    padding: 20px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 12px;
+    div{
+        padding-left: 20px;
+    }
+    li::marker{
+    color: #2563EB;
+}
+}
+
+.pcblack{
+    background-color: #0D1B2A;
+    h5{
+        color: #93C5FD;
+    }
+    h1{
+        color: white;
+    }
+    color: rgb(145, 145, 145);
+}
+.pcgray{
+    background-color: rgb(243, 243, 243);
+}
