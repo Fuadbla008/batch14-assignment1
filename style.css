@@ -106,76 +106,146 @@ nav {
     width: 1440px;
     height: 1279px;
     gap: 40px;
-    
+
 }
 
-.job-card-grid{
+.job-card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 32px;
     column-gap: 32px;
 }
-.job-grid-card{
+
+.job-grid-card {
     border: 1px solid rgb(221, 221, 221);
     border-radius: 12px;
-    img{
+
+    img {
         border-radius: 12px 12px 0px 0px;
     }
-    div{
+
+    div {
         padding: 24px;
     }
-    h4{
+
+    h4 {
         color: #3B82F6;
     }
-    p{
+
+    p {
         color: rgb(131, 131, 131);
     }
 }
 
 /* this is pricing card section css */
 
-.pricing{
+.pricing {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.card-area{
+
+.pcheading{
+    margin-bottom: 30px;
+}
+
+.card-area {
     width: 1160px;
     height: 444px;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 24px;
 }
-.pricing-child{
+
+.pricing-child {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.pricing-card{
+.pricing-card {
     padding: 20px;
     border: 1px solid rgb(160, 160, 160);
     border-radius: 12px;
-    div{
+
+    div {
         padding-left: 20px;
     }
-    li::marker{
-    color: #2563EB;
-}
+
+    li::marker {
+        color: #83b9f8;
+    }
 }
 
-.pcblack{
+.pcstandard {
+    h1{
+        color: black;
+    }
+    color: rgb(105, 105, 105);
+    .pcbutton {
+        margin-top: 30px;
+        text-align: center;
+
+        button {
+            width: 304px;
+            height: 45px;
+            border-radius: 8px;
+            padding: 11px;
+            background-color: white;
+            border: #3B82F6 solid 1px;
+            color: #2563EB;
+        }
+    }
+}
+
+.pcpro {
     background-color: #0D1B2A;
-    h5{
+
+    h5 {
         color: #93C5FD;
     }
-    h1{
+
+    h1 {
         color: white;
     }
+
     color: rgb(145, 145, 145);
+
+    .pcbutton {
+        margin-top: 30px;
+        text-align: center;
+
+        button {
+            width: 304px;
+            height: 45px;
+            border-radius: 8px;
+            padding: 11px;
+            background-color: #3463e3;
+            color: white;
+            border: none;
+        }
+    }
+
 }
-.pcgray{
+
+.pcteam {
+    h1{
+        color: black;
+    }
+    color: rgb(105, 105, 105);
     background-color: rgb(243, 243, 243);
+
+    .pcbutton {
+        margin-top: 30px;
+        text-align: center;
+
+        button {
+            width: 304px;
+            height: 45px;
+            border-radius: 8px;
+            padding: 11px;
+        }
+    }
 }
